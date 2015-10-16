@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace OscarsTest
 {
-    public partial class Form1 : Form
+    public partial class oscarform : Form
     {
-        public Form1()
+        public oscarform()
         {
             InitializeComponent();
         }
