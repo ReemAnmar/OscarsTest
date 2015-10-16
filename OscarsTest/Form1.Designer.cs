@@ -39,6 +39,7 @@
             this.OscarButon.TabIndex = 0;
             this.OscarButon.Text = "Oscar";
             this.OscarButon.UseVisualStyleBackColor = true;
+            this.OscarButon.Click += new System.EventHandler(this.OscarButon_Click);
             // 
             // oscarform
             // 

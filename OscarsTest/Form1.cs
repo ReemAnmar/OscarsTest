@@ -16,5 +16,10 @@ namespace OscarsTest
         {
             InitializeComponent();
         }
+
+        private void OscarButon_Click(object sender, EventArgs e)
+        {
+            Console.WriteLine("buga buga!!!!");
+        }
     }
 }
