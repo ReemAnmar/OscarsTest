@@ -28,7 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.OscarButon = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // OscarButon
+            // 
+            this.OscarButon.Location = new System.Drawing.Point(191, 70);
+            this.OscarButon.Name = "OscarButon";
+            this.OscarButon.Size = new System.Drawing.Size(75, 23);
+            this.OscarButon.TabIndex = 0;
+            this.OscarButon.Text = "Oscar";
+            this.OscarButon.UseVisualStyleBackColor = true;
             // 
             // oscarform
             // 
@@ -36,6 +46,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.Controls.Add(this.OscarButon);
             this.Name = "oscarform";
             this.Text = "Oscar";
             this.ResumeLayout(false);
@@ -43,6 +54,8 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Button OscarButon;
     }
 }
 
